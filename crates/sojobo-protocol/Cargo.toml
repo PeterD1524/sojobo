@@ -1,0 +1,5 @@
+[package]
+name = "sojobo-protocol"
+edition.workspace = true
+
+[dependencies]

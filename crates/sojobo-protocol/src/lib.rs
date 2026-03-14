@@ -32,3 +32,9 @@ pub enum ContentBlock {
         signature: String,
     },
 }
+
+/// A message in the conversation.
+pub struct Message {
+    pub role: Role,
+    pub content: Vec<ContentBlock>,
+}

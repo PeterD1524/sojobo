@@ -1,0 +1,6 @@
+[package]
+name = "sojobo-stream"
+edition.workspace = true
+
+[dependencies]
+sojobo-protocol = { path = "../sojobo-protocol" }
